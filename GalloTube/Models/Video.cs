@@ -12,12 +12,12 @@ public class Video
     [Display(Name = "Nome")]
     [Required(ErrorMessage = "O Nome é obrigatório")]
     [StringLength(100, ErrorMessage = "O Nome deve possuir no máximo 100 caracteres")]
-    public string Name { get; set; }
+    public string? Name { get; set; }
 
     [Display(Name = "Descrição")]
     [Required(ErrorMessage = "A Descrição é obrigatório")]
     [StringLength(8000, ErrorMessage = "A Descrição deve possuir no máximo 8000 caracteres")]
-    public string Description { get; set; }
+    public string? Description { get; set; }
 
     [Display(Name = "Data de Upload")]
     [Required(ErrorMessage = "A Data de Upload é obrigatória")]
@@ -29,11 +29,11 @@ public class Video
 
     [Display(Name = "Thumbnail")]
     [StringLength(200)]
-    public string Thumbnail { get; set; }
+    public string? Thumbnail { get; set; }
 
     [StringLength(200)]
     [Display(Name = "Arquivo do Vídeo")]
-    public string VideoFile { get; set; }
+    public string? VideoFile { get; set; }
 
-    public ICollection<VideoTag> Tags { get; set; }
+    public ICollection<VideoTag>? Tags { get; set; }
 }
