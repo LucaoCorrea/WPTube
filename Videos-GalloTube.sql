@@ -16,7 +16,7 @@ INSERT INTO Tag(Id, Name) VALUES
 (13,'Pornográfico');
 
 INSERT INTO Video(Id, Name, Description, UploadDate, Duration, Thumbnail) VALUES
-( 1, 'Veja o Filme do Ben 10.', '2013/01/01', 12, '\\img\\videos\\01.jpg'),
+( 1, 'Veja o Filme do Ben 10.','sem descrição, nao pensei em nada', '2013/01/01', 12, '\\img\\videos\\01.jpg'),
 ( 2, 'Top 10 jogos do Mario', 'Os melhores jogos do encanador vermelho', '2023/12/06', 32, '\\img\\videos\\02.jpg'),
 ( 3, 'Mortal Kombat', 'O melhor da franquia?', '2015/04/09', 20, '\\img\\videos\\03.jpg'),
 ( 4, 'Mike Tayson', 'O melhor lutador do mundo?', '2023/03/10', 12, '\\img\\videos\\04.jpg'),
